@@ -12,8 +12,8 @@
 
 <body>
   <!-- Banner and Navbar Start -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container px-4 px-lg-5">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
       <a class="navbar-brand" href="index.html">
         <img src="images/Alternate Logo 2.png" width="150" height="100" alt="">
       </a>
@@ -61,108 +61,171 @@
       </header>
     </div>
     <!-- Company Details Start -->
-    <div id="details"></div>
+    <div id="details">
+
+    </div>
     <!-- Product Display Start -->
     <div id="products">
-      <div class="cards">
-	
-	<div class="contact">Contact Me</div>
-	<div class="contact-form">
-		<a href="#" class="close"><i class="fa fa-times"></i></a>
-		<form>
-			<div class="control"><input type="text"  id="name"/><label for="name">Your Name</label></div>
-			<div class="control"><input type="text"  id="email"/><label for="email">Email Address</label></div>
-			<div class="control"><input type="text"  id="url"/><label for="url">Website</label></div>
-			<div class="control"><textarea name="" id="message"></textarea><label for="message">Message</label></div>
-			<div class="control submit"><input type="submit" /></div>
-		</form>
-	</div>
-	
-	 <div class="card active" id="overview">
-		<a class="card-toggle"><i class="fa fa-arrow-circle-left"></i></a>
-		<div class="card-content">
-			<div class="row">
-				<div class="left col">
-					<h2>Personal <strong>Social Card</strong></h2>
-					
-					<p>Click one of the social icons below to switch between card or click Contact Me link to show the contact form card. <br /><em>Make sure you're running this experiment in the latest Chrome browser.</em></p>
-					
-				</div>
-				<div class="right col">
-				</div>
-			</div>
-		</div>
-	</div> 
-	
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="wrapper">
+              <div class="product-img">
+                <img src="http://bit.ly/2tMBBTd" height="420" width="327">
+              </div>
+              <div class="product-info">
+                <div class="product-text">
+                  <h1>Harvest Vase</h1>
+                  <h2>by studio and friends</h2>
+                  <p>Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables as<br> functional objects.
+                    The
+                    surfaces<br> appear to be sliced and pulled aside,<br> allowing room for growth. </p>
+                </div>
+                <div class="product-price-btn">
+                  <p><span class="span">78</span>$</p>
+                  <button type="button">buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper">
+              <div class="product-img">
+                <img src="http://bit.ly/2tMBBTd" height="420" width="327">
+              </div>
+              <div class="product-info">
+                <div class="product-text">
+                  <h1>Harvest Vase</h1>
+                  <h2>by studio and friends</h2>
+                  <p>Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables as<br> functional objects.
+                    The
+                    surfaces<br> appear to be sliced and pulled aside,<br> allowing room for growth. </p>
+                </div>
+                <div class="product-price-btn">
+                  <p><span class="span">78</span>$</p>
+                  <button type="button">buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper">
+              <div class="product-img">
+                <img src="http://bit.ly/2tMBBTd" height="420" width="327">
+              </div>
+              <div class="product-info">
+                <div class="product-text">
+                  <h1>Harvest Vase</h1>
+                  <h2>by studio and friends</h2>
+                  <p>Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables as<br> functional objects.
+                    The
+                    surfaces<br> appear to be sliced and pulled aside,<br> allowing room for growth. </p>
+                </div>
+                <div class="product-price-btn">
+                  <p><span class="span">78</span>$</p>
+                  <button type="button">buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 
-	<div class="card" id="dribbble">
-		<a class="card-toggle"><i><span class="fa fa-dribbble"></span></i></a>
-		<div class="card-content">
-			<div class="row">
-				<div class="left col">
-					<h2>My <strong>Dribbble</strong></h2>
-					
-					<p>In ipsa reiciendis, eligendi labore dolores delectus facere perferendis ex architecto reprehenderit maxime exercitationem, libero itaque, at voluptatibus! Sit obcaecati repellat incidunt accusantium voluptas suscipit a consequuntur repudiandae nulla eius.</p>
-					
-				</div>
-				<div class="right col"><img src="https://dl.dropboxusercontent.com/u/26808427/cdn/preview.jpg" alt="" /></div>
-			</div>
-		</div>
-	</div> 
-	
-	<div class="card" id="behance">
-		<a class="card-toggle"><i><span class="fa fa-behance"></span></i></a>
-		<div class="card-content">
-			<div class="row">
-				<div class="left col">
-					<h2>My <strong>Behance</strong></h2>
-					<p>Quia fugit animi, iure error veritatis? Ipsa quis, deserunt illum culpa ab id mollitia nesciunt commodi aut dolores vero ipsam ut minima neque nam excepturi corporis obcaecati consequuntur accusantium laborum!</p>
-				</div>
-				<div class="right col"><img src="https://dl.dropboxusercontent.com/u/26808427/cdn/preview.jpg" alt="" /></div>
-			</div>
-		</div>
-	</div>
-	<div class="card" id="linkedin">
-		<a class="card-toggle"><i><span class="fa fa-linkedin"></span></i></a>
-		<div class="card-content">
-			<div class="row">
-				<div class="left col">
-					<h2>My <strong>LinkedIn</strong></h2>
-				
-					<p>Voluptas aliquam, perferendis laboriosam, cumque, autem vero pariatur dolorum tempora sint hic laborum distinctio suscipit magnam, porro provident maxime labore. Porro vel error quaerat consequatur sapiente? Nostrum at voluptatibus necessitatibus.</p>
-				</div>
-				<div class="right col"><img src="https://dl.dropboxusercontent.com/u/26808427/cdn/preview.jpg" alt="" /></div>
-			</div>
-		</div>
-	</div>
-	<div class="card" id="twitter">
-		<a class="card-toggle"><i><span class="fa fa-twitter"></span></i></a>
-		<div class="card-content">
-			<div class="row">
-				<div class="left col">
-					<h2>My <strong>Twitter</strong></h2>
-				
-					<p>Fugit veniam, animi architecto doloribus veritatis vitae sint doloremque possimus quae. Pariatur libero, veniam voluptatibus alias distinctio qui nostrum debitis voluptate amet hic repellat officiis nam quos vel doloremque praesentium.</p>
-				</div>
-				<div class="right col"><img src="https://dl.dropboxusercontent.com/u/26808427/cdn/preview.jpg" alt="" /></div>
-			</div>
-		</div>
-	</div>
-	
-	
-</div>
+
     </div>
+  </div>
+  <!-- Footer Start -->
+  <div id="footer">
 
-    <!-- Mailing List Start -->
-    <div id="mail"></div>
-    <!-- Footer Start -->
-    <div id="footer"></div>
+
+
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo"><img src="images/Alternate Logo 2.png" width="250" height="200"></h1>
+
+        <h2>Contact</h2>
+
+        <address>
+          43 Main St, Toms River, NJ 08753
+          <br>
+
+          <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+        </address>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">Products</h2>
+
+          <ul class="nav__ul nav__ul--extra">
+            <li>
+              <a href="#products">Wooden Toy Airplane</a>
+            </li>
+
+            <li>
+              <a href="#products">Wooden Toy Train</a>
+            </li>
+
+            <li>
+              <a href="#products">Wooden Toy Boat</a>
+            </li>
+
+            <li>
+              <a href="#products">Wooden Block Toy Set</a>
+            </li>
+
+            <li>
+              <a href="#products">Wooden Toy Car</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Company Info</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">About Us</a>
+            </li>
+
+            <li>
+              <a href="#">Product Info</a>
+            </li>
+
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="legal">
+        <p>&copy; 2023 Little Bird Handmade Toys. All rights reserved.</p>
+
+        <div class="legal__links">
+          <span>Made by Adil Soomro and Ethan Carvalho</span>
+        </div>
+      </div>
+    </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 
-</html <!-- https://codepen.io/jeffbredenkamp/pen/edNzVZ
-https://codepen.io/ariona/pen/JYGzBB
--->
+</html>
