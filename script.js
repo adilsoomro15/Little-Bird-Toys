@@ -5,5 +5,3 @@ function fade($ele) {
   });
 }
 fade($('.quoteLoop > .quote').first());
-
-
